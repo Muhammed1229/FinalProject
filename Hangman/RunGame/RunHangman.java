@@ -139,7 +139,6 @@ public class RunHangman {
             // counter is protected when an invalid guess is caught, the turn is replayed
             } catch (InvalidGuessException e) {
                 IO.println("\n[INPUT ERROR] " + e.getMessage());
-                IO.println("Your try counter was protected. Attempt a different entry.");
                 continue;
             }
 
